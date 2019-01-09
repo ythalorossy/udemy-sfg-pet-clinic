@@ -5,7 +5,7 @@
     <description>SFG Pet Clinic Project</description>
     <groupId>guru.springframework</groupId>
     <artifactId>udemy-sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -50,7 +50,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:ythalorossy/udemy-sfg-pet-clinic.git</developerConnection>
-      <tag>udemy-sfg-pet-clinic-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
