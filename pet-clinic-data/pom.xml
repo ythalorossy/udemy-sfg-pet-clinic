@@ -8,7 +8,7 @@
     <artifactId>pet-clinic-data</artifactId>
 
     <parent>
-        <artifactId>sfg-pet-clinic</artifactId>
+        <artifactId>udemy-sfg-pet-clinic</artifactId>
         <groupId>guru.springframework</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
