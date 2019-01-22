@@ -29,9 +29,6 @@
         <junit-platform.version>5.3.1</junit-platform.version>
     </properties>
 
-    <dependencies>
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>
