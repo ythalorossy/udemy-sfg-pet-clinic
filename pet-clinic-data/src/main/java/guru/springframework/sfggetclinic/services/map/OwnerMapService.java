@@ -71,7 +71,7 @@ public class OwnerMapService
     }
 
     @Override
-    public Owner findBYLastName(String lastName) {
+    public Owner findByLastName(String lastName) {
         return this.findAll()
                 .stream()
                 .filter(owner -> owner.getLastName().equalsIgnoreCase(lastName))
