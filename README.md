@@ -4,7 +4,7 @@
 
 This repository is the records of the course that I did on the platform Udemy.
 
-The course focused on the Spring Framework.
+The course focused on the Spring Framework 5 and Spring Boot.
 
 
 ## Page of the Course
