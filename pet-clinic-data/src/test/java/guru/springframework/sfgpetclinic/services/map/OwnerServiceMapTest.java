@@ -11,9 +11,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class OwnerServiceMapTest {
 
     private final String lastName = "Smith";
-    OwnerMapService ownerServiceMap;
-
     private final Long ownerId = 1L;
+    OwnerMapService ownerServiceMap;
 
     @BeforeEach
     void setUp() {
