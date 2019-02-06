@@ -10,8 +10,6 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-import static java.util.Objects.nonNull;
-
 @Setter
 @Getter
 @NoArgsConstructor
@@ -27,7 +25,7 @@ public class Owner extends Person {
         this.city = city;
         this.telephone = telephone;
 
-        if (nonNull(pets)) {
+        if (pets != null) {
             this.pets = pets;
         }
     }

@@ -17,6 +17,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.Collection;
 
+/**
+ * Created by jt on 9/22/18.
+ */
 @Controller
 @RequestMapping("/owners/{ownerId}")
 public class PetController {
@@ -67,6 +70,7 @@ public class PetController {
             model.put("pet", pet);
             return VIEWS_PETS_CREATE_OR_UPDATE_FORM;
         } else {
+            pet.setOwner(owner);
             petService.save(pet);
 
             return "redirect:/owners/" + owner.getId();
@@ -91,4 +95,5 @@ public class PetController {
             return "redirect:/owners/" + owner.getId();
         }
     }
+
 }
